@@ -1,0 +1,216 @@
+@media (max-width:320px) {
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+
+    * {
+        font-family: 'Poppins', sans-serif;
+        /* overflow-x: hidden!important; */
+    }
+
+    .carousel{
+        margin-top: -15%!important;
+    }
+    
+
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        font-size: 2rem !important;
+        color: #a9a9a9;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 8px;
+        font-size: 2rem !important;
+        color: #a9a9a9;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    /* .slide {
+        opacity: 0;
+        transition-duration: 1s ease;
+    }
+
+    .slide.active {
+        opacity: 1;
+        transition-duration: 1s;
+        transform: scale(1.0);
+    }
+
+
+    .slider {
+        position: relative;
+        width: 100%;
+        display: flex;
+        padding-top: 65px;
+    }
+
+    .sliderImg {
+        border-radius: 25px;
+        width: 375px;
+        height: 600px;
+    } */
+
+    .newsLetter {
+        margin-top: 3%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .footer-top {
+        overflow-y: hidden;
+
+    }
+
+    .socialicon {
+        margin-right: 5px;
+    }
+
+
+}
+
+@media (max-width:480px) {
+
+    /* smartphones, Android phones, landscape iPhone */
+
+
+    * {
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden!important;
+    }
+
+    .carousel{
+        margin-top: -15%!important;
+    }
+    
+
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        font-size: 2rem !important;
+        color: #a9a9a9;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 8px;
+        font-size: 2rem !important;
+        color: #a9a9a9;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    /* .slide {
+        opacity: 0;
+        transition-duration: 1s ease;
+    }
+
+    .slide.active {
+        opacity: 1;
+        transition-duration: 1s;
+        transform: scale(1.0);
+    }
+
+
+    .slider {
+        position: relative;
+        width: 100%;
+        display: inline-flex;
+        padding-top: 65px;
+    }
+
+    .sliderImg {
+        border-radius: 25px;
+        width: 375px;
+        height: 600px;
+    } */
+
+    .newsLetter {
+        margin-top: 3%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .subscribe {
+        overflow-y: hidden;
+        height: 150px;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .footer{
+        overflow: hidden;
+        height: 100%;
+
+    }
+
+    .MuiList-root .MuiList-padding{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .MuiGrid-item{
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    .css-9mgopn-MuiDivider-root{
+        margin: 5px!important;
+        width: 50%!important;
+    }
+    
+
+
+
+}
+
+@media (max-width:600px) {
+
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 
+     phones (Android) */
+    .sliderImg {
+        width: 350px;
+        height: 600px;
+    }
+}
+
+@media (max-width:801px) {
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+
+@media (max-width:1025px) {
+
+    /* big landscape tablets, laptops, and desktops */
+
+}
+
+@media (max-width:1281px) {
+
+    /* hi-res laptops and desktops */
+
+}
