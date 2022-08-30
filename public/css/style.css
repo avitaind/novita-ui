@@ -13,6 +13,9 @@ body {
     background: #fafafa;
     overflow-x: hidden;
 }
+span {
+    font-family: 'roboto ', sans-serif!important;
+}
 
 .wrapper {
     display: flex;
