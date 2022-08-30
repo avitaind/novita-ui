@@ -10,13 +10,37 @@ import { useState } from 'react';
 
 export default function Header() {
 
-  const [show, setShow] = useState(false);
-  const showDropdown = (e) => {
-    setShow(!show);
+  const [showWearable, setWearableShow] = useState(false);
+  const showWearableDropdown = (e) => {
+    setWearableShow(!showWearable);
   }
-  const hideDropdown = e => {
-    setShow(false);
+  const hideWearableDropdown = e => {
+    setWearableShow(false);
   }
+
+
+  
+  const [showWatch, setWatchShow] = useState(false);
+  const showWatchDropdown = (e) => {
+    setWatchShow(!showWatch);
+  }
+  const hideWatchDropdown = e => {
+    setWatchShow(false);
+  }
+
+
+  
+  
+  const [showWristio, setWristioShow] = useState(false);
+  const showWristioDropdown = (e) => {
+    setWristioShow(!showWristio);
+  }
+  const hideWristioDropdown = e => {
+    setWristioShow(false);
+  }
+
+
+  
 
   return (
     <Row className='mt-4'>
@@ -37,10 +61,14 @@ export default function Header() {
               <Nav.Link className='px-5' href="/">Tablets</Nav.Link>
               {/* <Nav.Link className='px-5' href="/">Smart Lighting</Nav.Link> */}
               {/* <Nav.Link className='px-5' href="/smart-watch">Smart Watch</Nav.Link> */}
-              <NavDropdown className='px-5' title="Smart Wearables" id="basic-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
-                <NavDropdown.Item className='nav-dropdown px-5' href="/">WRISTIO 1 [Launching Soon]</NavDropdown.Item>
-                <NavDropdown.Item className='nav-dropdown px-5' href="/">WRISTIO 2 [Launching Soon]</NavDropdown.Item>
+              <NavDropdown className='px-5' title="Smart Wearables" id="basic-nav-dropdown" showWearable={showWearable} onMouseEnter={showWearableDropdown} onMouseLeave={hideWearableDropdown}>
+              <NavDropdown className='px-5' title="Smart Watches" id="basic-nav-dropdown" showWatch={showWatch} onMouseEnter={showWatchDropdown} onMouseLeave={hideWatchDropdown}>
+                <NavDropdown className='px-5' title="Wristio" id="basic-nav-dropdown" showWristio={showWristio} onMouseEnter={showWristioDropdown} onMouseLeave={hideWristioDropdown}>
+                  <NavDropdown.Item className='nav-dropdown px-5' href="/">WRISTIO 1 [Launching Soon]</NavDropdown.Item>
+                  <NavDropdown.Item className='nav-dropdown px-5' href="/">WRISTIO 2 [Launching Soon]</NavDropdown.Item>
+                </NavDropdown>
               </NavDropdown>
+        </NavDropdown>
               {/* <Nav.Link className='px-5' href="/contact">Contact</Nav.Link> */}
             </Nav>
             {/* <Form className="d-flex searchBox border-bottom" >
