@@ -25,8 +25,8 @@ function Wristio1() {
       {matches ? <SideDrawer /> : <Header />}
       <ProductBanner />
       <ProductFeatureDark />
-      <ProductSpecCard/>
       <ProductFeatureLight/>
+      <ProductSpecCard/>
       {/* <FooterTop /> */}
       <FooterMiddle />
       {/* {matches ? <></> : <Footer />} */}
