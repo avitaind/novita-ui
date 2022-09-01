@@ -1,9 +1,9 @@
+import { Carousel } from 'react-bootstrap';
 import mobBanner1 from '../assets/mobBanner/1.jpg';
 import webBanner1 from '../assets/webBanner/1.jpg';
 import Row from 'react-bootstrap/Row';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import { Link } from 'react-router-dom';
 
 
 function HomeBanner() {
@@ -12,8 +12,11 @@ function HomeBanner() {
   const matches = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
-    <Row className='scarousel'>
-        <Link to='/'>
+    <Row>
+
+      <Carousel>
+
+        <Carousel.Item>
           <img
             className="d-block w-100"
             src={matches ? (
@@ -23,7 +26,12 @@ function HomeBanner() {
             )}
             alt="NOVITA "
           />
-          </Link>
+
+        </Carousel.Item>
+       
+     
+
+      </Carousel>
     </Row>
   );
 }

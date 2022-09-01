@@ -8,13 +8,13 @@ import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 
-const futureDate = new Date(2022, 8, 31);
+const futureDate = new Date(2022, 9, 5);
 const getDateDiff = (date1, date2) => {
     const diff = new Date(date2.getTime() - date1.getTime());
     return {
         year: diff.getUTCFullYear() - 1970,
         month: diff.getUTCMonth(),
-        day: diff.getUTCDate() - 1,
+        day: diff.getUTCDate(),
         hour: diff.getUTCHours(),
         minute: diff.getUTCMinutes(),
         second: diff.getUTCSeconds()

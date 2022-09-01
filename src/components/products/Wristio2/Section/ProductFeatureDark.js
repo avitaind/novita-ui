@@ -27,7 +27,7 @@ function ProductFeatureDark() {
     <>
       <div className='bg-dark text-white'>
         <Container>
-        <Row className='text-center'>
+          <Row className='text-center'>
 
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
               <span className='text-white' style={{ fontFamily: 'roboto!important' }}>The perfect partner to hold on to your wrist is here. Introducing the all-new Smart watch Wristio 2, with 250+ watch faces, 8-12 days of battery life on a single charge, split screen display, and an aesthetic to engulf into. Re-imagine your smartwatch experience with the Wristio 2.</span>
@@ -53,7 +53,7 @@ function ProductFeatureDark() {
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}>
-            Bezel-free Display 
+              Bezel-free Display
 
             </Typography>
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
@@ -78,7 +78,7 @@ function ProductFeatureDark() {
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}>
-            Watch faces that reflect you
+              Watch faces that reflect you
             </Typography>
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
               <span className='text-white'>250+ watch faces, now that's something which will give a rush to your dopamine. No matter where you go or what your OOTD is, Wristio 2 has got it all. Be the head-turner of the day everywhere, every time.</span>
@@ -102,7 +102,7 @@ function ProductFeatureDark() {
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}>
-            Motivates the fitness freak in you
+              Motivates the fitness freak in you
 
             </Typography>
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
@@ -127,10 +127,10 @@ function ProductFeatureDark() {
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}>
-            Expansive 30 Days Battery Life
+              Expansive Usage of 30 days battery life
             </Typography>
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
-              <span className='text-white'>With a battery life of ___ and ___ on standby, Wristio 2 is the constant companion that you can rely on. Go days for being active and never miss a bit of your movement or work.</span>
+              <span className='text-white'>With a battery life of 7 days and 30 days of standby time, Wristio 2 is the constant companion that you can rely on. Go days for being active and never miss a bit of your movement or work.</span>
 
             </Typography>
           </Row>
@@ -151,7 +151,7 @@ function ProductFeatureDark() {
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}>
-            Precise health tracking powered by AI 
+              Precise health tracking powered by AI
             </Typography>
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
               <span className='text-white'>The sensors like never before to measure your blood oxygen level. Never miss a beat of your heart. The revolutionary innovation to keep your body healthy from top to bottom.</span>

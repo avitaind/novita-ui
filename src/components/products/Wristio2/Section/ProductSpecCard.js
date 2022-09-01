@@ -3,36 +3,59 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Container } from 'react-bootstrap';
 import Typography from '@mui/material/Typography';
-import HdRoundedIcon from '@mui/icons-material/HdRounded';
-import SettingsPowerRoundedIcon from '@mui/icons-material/SettingsPowerRounded';
-import BatteryChargingFullRoundedIcon from '@mui/icons-material/BatteryChargingFullRounded';
-import PhoneBluetoothSpeakerRoundedIcon from '@mui/icons-material/PhoneBluetoothSpeakerRounded';
-import KeyboardVoiceRoundedIcon from '@mui/icons-material/KeyboardVoiceRounded';
-import EventRepeatRoundedIcon from '@mui/icons-material/EventRepeatRounded';
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import charging from '../../../../components/assets/product/Wristio2/Icons/charging.png';
+
 
 
 
 function ProductSpecCard() {
+
+    const theme = useTheme();
+    const matches = useMediaQuery(theme.breakpoints.down('md'));
+
     return (
         <>
-            <div className='bg-gray' style={{height:'40vh', paddingTop:'5%'}}>
+            <div className='bg-gray' style={{ height: '50vh', paddingTop: '2%' }}>
 
                 <Container>
                     <Row className='text-center'>
                         <Col>
-                            <HdRoundedIcon/>
+                            <img
+                                className="" style={{ width: '50px', height: '50px' }}
+                                src={matches ? (
+                                    charging
+                                ) : (
+                                    charging
+                                )}
+                                alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
                                 UHD TrueHue™ display
                             </Typography>
                         </Col>
                         <Col>
-                            <SettingsPowerRoundedIcon />
+                            <img
+                                className="" style={{ width: '50px', height: '50px' }}
+                                src={matches ? (
+                                    charging
+                                ) : (
+                                    charging
+                                )}
+                                alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
                                 Always-On Enabled
                             </Typography>
                         </Col>
                         <Col>
-                            <BatteryChargingFullRoundedIcon />
+                            <img
+                                className="" style={{ width: '50px', height: '50px' }}
+                                src={matches ? (
+                                    charging
+                                ) : (
+                                    charging
+                                )}
+                                alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
                                 Wireless Charging with SnapCharge™
                             </Typography>
@@ -43,19 +66,40 @@ function ProductSpecCard() {
 
                     <Row className='text-center'>
                         <Col>
-                            <PhoneBluetoothSpeakerRoundedIcon />
+                            <img
+                                className="" style={{ width: '50px', height: '50px' }}
+                                src={matches ? (
+                                    charging
+                                ) : (
+                                    charging
+                                )}
+                                alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
                                 Bluetooth voice calling
                             </Typography>
                         </Col>
                         <Col>
-                            <KeyboardVoiceRoundedIcon />
+                            <img
+                                className="" style={{ width: '50px', height: '50px' }}
+                                src={matches ? (
+                                    charging
+                                ) : (
+                                    charging
+                                )}
+                                alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
                                 Voice Assistants
                             </Typography>
                         </Col>
                         <Col>
-                            <EventRepeatRoundedIcon />
+                            <img
+                                className="" style={{ width: '50px', height: '50px' }}
+                                src={matches ? (
+                                    charging
+                                ) : (
+                                    charging
+                                )}
+                                alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
                                 Up to 15 Days Battery
                             </Typography>
