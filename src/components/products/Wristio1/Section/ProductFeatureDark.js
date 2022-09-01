@@ -148,7 +148,7 @@ function ProductFeatureDark() {
                 web5
               )}
               alt="Fifth slide" />
-              <br/>
+            <br />
           </Row>
         </Container>
       </div>

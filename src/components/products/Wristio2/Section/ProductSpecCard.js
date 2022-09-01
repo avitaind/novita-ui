@@ -6,6 +6,11 @@ import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import charging from '../../../../components/assets/product/Wristio2/Icons/charging.png';
+import voiceAssistants from '../../../../components/assets/product/Wristio2/Icons/voiceAssistants.png';
+import Message from '../../../../components/assets/product/Wristio2/Icons/Message.png';
+import Multitasking from '../../../../components/assets/product/Wristio2/Icons/Multitasking.png';
+import nfc from '../../../../components/assets/product/Wristio2/Icons/nfc.png';
+import SplitScreen from '../../../../components/assets/product/Wristio2/Icons/SplitScreen.png';
 
 
 
@@ -17,7 +22,7 @@ function ProductSpecCard() {
 
     return (
         <>
-            <div className='bg-gray' style={{ height: '50vh', paddingTop: '2%' }}>
+            <div className='bg-gray' style={{ height: '50vh', paddingTop: '5%' }}>
 
                 <Container>
                     <Row className='text-center'>
@@ -25,9 +30,9 @@ function ProductSpecCard() {
                             <img
                                 className="" style={{ width: '50px', height: '50px' }}
                                 src={matches ? (
-                                    charging
+                                    SplitScreen
                                 ) : (
-                                    charging
+                                    SplitScreen
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
@@ -38,9 +43,9 @@ function ProductSpecCard() {
                             <img
                                 className="" style={{ width: '50px', height: '50px' }}
                                 src={matches ? (
-                                    charging
+                                    nfc
                                 ) : (
-                                    charging
+                                    nfc
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
@@ -69,9 +74,9 @@ function ProductSpecCard() {
                             <img
                                 className="" style={{ width: '50px', height: '50px' }}
                                 src={matches ? (
-                                    charging
+                                    Multitasking
                                 ) : (
-                                    charging
+                                    Multitasking
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
@@ -82,9 +87,9 @@ function ProductSpecCard() {
                             <img
                                 className="" style={{ width: '50px', height: '50px' }}
                                 src={matches ? (
-                                    charging
+                                    voiceAssistants
                                 ) : (
-                                    charging
+                                    voiceAssistants
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
@@ -95,9 +100,9 @@ function ProductSpecCard() {
                             <img
                                 className="" style={{ width: '50px', height: '50px' }}
                                 src={matches ? (
-                                    charging
+                                    Message
                                 ) : (
-                                    charging
+                                    Message
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>

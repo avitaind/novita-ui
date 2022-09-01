@@ -136,16 +136,6 @@ function ProductFeatureLight() {
 
             </Typography>
           </Row>
-          <Row>
-            <img
-              className="d-block w-100"
-              src={matches ? (
-                mob10
-              ) : (
-                web10
-              )}
-              alt="Third slide" />
-          </Row>
         </Container>
       </div>
     </>

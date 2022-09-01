@@ -27,12 +27,12 @@ function ProductFeatureLight() {
         <Container>
           <Row className='text-center'>
 
-          <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
+            <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
               background: "-webkit-linear-gradient(30deg, #8C928D 40%, #4E4F4E 60%)",
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}  >
-                              Your Mood. Your Music
+              Your Mood. Your Music
 
             </Typography>
             <Typography variant='p' component='p' mt={2} mb={4}>
@@ -54,12 +54,12 @@ function ProductFeatureLight() {
           </Row>
           <Row className='text-center'>
 
-          <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
+            <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
               background: "-webkit-linear-gradient(30deg, #8C928D 40%, #4E4F4E 60%)",
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}  >
-                              Train with Convenience/ Be your own health guard
+              Train with Convenience
             </Typography>
             <Typography variant='p' component='p' mt={2} mb={4}>
               <span className='text-dark'>Guard your health in a chic way.  Running, cycling, walking, swimming, or playing multiple sports, do whatever your body demands to stay fit. Carry your gym wherever you go.</span>
@@ -80,13 +80,13 @@ function ProductFeatureLight() {
           </Row>
           <Row className='text-center'>
 
-          <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
+            <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
               background: "-webkit-linear-gradient(30deg, #8C928D 40%, #4E4F4E 60%)",
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}  >
-                              Up To 22 Days Battery Life (typical use, with BT calling, charging time and standby time)
-            </Typography>
+              Up To 22 Days Battery Life
+              </Typography>
             <Typography variant='p' component='p' mt={2} mb={4}>
               <span className='text-dark'>Never out of charge. Wristio 1 stays with you anytime, anywhere. Charged within minutes and goes on for days. </span>
 
@@ -106,12 +106,12 @@ function ProductFeatureLight() {
           </Row>
           <Row className='text-center'>
 
-          <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
+            <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
               background: "-webkit-linear-gradient(30deg, #8C928D 40%, #4E4F4E 60%)",
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}  >
-                              Explore Multi UIs
+              Explore Multi UIs
             </Typography>
             <Typography variant='p' component='p' mt={2} mb={4}>
               <span className='text-dark'>Never go out of style. 250+ watch face for all your occasions to complement the look in a perfect way. </span>
@@ -132,12 +132,12 @@ function ProductFeatureLight() {
           </Row>
           <Row className='text-center'>
 
-          <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
+            <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
               background: "-webkit-linear-gradient(30deg, #8C928D 40%, #4E4F4E 60%)",
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}  >
-                                Keep a weather check
+              Keep a weather check
             </Typography>
             <Typography variant='p' component='p' mt={2} mb={4}>
               <span className='text-dark'>Be every weather ready. Bad weather will no longer be a hindrance; stay updated with Wristio 1 live weather check and plan accordingly. </span>
