@@ -27,7 +27,6 @@ function Wristio2() {
       <ProductFeatureDark />
       <ProductFeatureLight/>
       <ProductSpecCard/>
-
       {/* <FooterTop /> */}
       <FooterMiddle />
       {/* {matches ? <></> : <Footer />} */}
