@@ -30,7 +30,7 @@ function ProductFeatureDark() {
           <Row className='text-center'>
 
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
-              <span className='text-white'>Classy, prudent, and personal, all the things a watch should be. A perfect companion for all the good and lukewarm moments in your life. Be it working or working out, sleeping or going out, Wristio 1 stays with you all the time.</span>
+              <span className='text-white'>Classy, prudent, and personal, all the things a watch should be. A perfect companion for all the good and lukewarm moments in your life. Be it working in or working out, sleeping or going out, Wristio 1 stays with you all the time.</span>
 
             </Typography>
           </Row>

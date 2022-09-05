@@ -86,9 +86,9 @@ function ProductFeatureLight() {
               WebkitTextFillColor: "transparent",
             }}  >
               Up To 22 Days Battery Life
-              </Typography>
+            </Typography>
             <Typography variant='p' component='p' mt={2} mb={4}>
-              <span className='text-dark'>Never out of charge. Wristio 1 stays with you anytime, anywhere. Charged within minutes and goes on for days. </span>
+              <span className='text-dark'>Never out of charge. Wristio 1 stays with you anytime, anywhere. Charged within 120 minutes and goes on for approximately 22 days.</span>
 
             </Typography>
           </Row>
@@ -155,6 +155,20 @@ function ProductFeatureLight() {
                 web10
               )}
               alt="Fifth slide" />
+          </Row>
+          <Row className='text-center'>
+
+            <Typography variant='h3' component='h3' mt={4} mb={4} pt={4} style={{
+              background: "-webkit-linear-gradient(30deg, #8C928D 40%, #4E4F4E 60%)",
+              webkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}  >
+              More Features! More Fun!
+            </Typography>
+            <Typography variant='p' component='p' mt={2} mb={4}>
+              <span className='text-dark'>Be effortlessly efficient. Multi-tasking made more fun with the multiple features that Wristio 1 offers.</span>
+
+            </Typography>
           </Row>
         </Container>
       </div>
