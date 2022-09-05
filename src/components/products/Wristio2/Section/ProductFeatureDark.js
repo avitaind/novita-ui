@@ -30,7 +30,7 @@ function ProductFeatureDark() {
           <Row className='text-center'>
 
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
-              <span className='text-white' style={{ fontFamily: 'roboto!important' }}>The perfect partner to hold on to your wrist is here. Introducing the all-new Smart watch Wristio 2, with 250+ watch faces, 8-12 days of battery life on a single charge, split screen display, and an aesthetic to engulf into. Re-imagine your smartwatch experience with the Wristio 2.</span>
+              <span className='text-white' style={{ fontFamily: 'roboto!important' }}>The perfect partner to hold on to your wrist is here. Introducing the all-new smartwatch Wristio 2, with 250+ watch faces, up to 25 days of battery life on a single charge, split screen display, and an aesthetic to engulf into. Re-imagine your smartwatch experience with the Wristio 2.</span>
 
             </Typography>
           </Row>
@@ -57,7 +57,7 @@ function ProductFeatureDark() {
 
             </Typography>
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
-              <span className='text-white'>The mightiest display to give revolutionizing visuals. A bezel-free 1.9 HD display with crystal-clear resolutions ensures 50% more screen area and gives an eye-pleasing experience to legit push your limits beyond the horizon.</span>
+              <span className='text-white'>The mightiest display to give revolutionizing visuals. A bezel-free 1.9 TFT HD display with crystal-clear resolutions ensures 50% more screen area and gives an eye-pleasing experience to legit push your limits beyond the horizon.</span>
 
             </Typography>
           </Row>
@@ -127,10 +127,10 @@ function ProductFeatureDark() {
               webkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}>
-              Expansive Usage of 30 days battery life
+              Expansive Usage of 25 days battery life
             </Typography>
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
-              <span className='text-white'>With a battery life of 7 days and 30 days of standby time, Wristio 2 is the constant companion that you can rely on. Go days for being active and never miss a bit of your movement or work.</span>
+              <span className='text-white'>With a battery life of 7 days and  up to 25 days of standby time, Wristio 2 is the constant companion that you can rely on. Go days for being active and never miss a bit of your movement or work.</span>
 
             </Typography>
           </Row>

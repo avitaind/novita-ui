@@ -82,7 +82,7 @@ function ProductFeatureLight() {
               Tougher & Durable watch ever built
             </Typography>
             <Typography variant='p' component='p' mt={4} mb={4} pt={4}>
-              <span className='text-dark'>Splash around in the rain or dive into the pool without any worries. Wristio 2 with a rating of IP68 water resistance, is built to ditch damages in the rain or pool.</span>
+              <span className='text-dark'>Splash around in the rain or dive into the pool without any worries. Wristio 2 with a rating of IP68 water resistance, is built to ditch damages in the rain or in the pool.</span>
 
             </Typography>
           </Row>

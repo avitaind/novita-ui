@@ -22,13 +22,13 @@ function ProductSpecCard() {
 
     return (
         <>
-            <div className='bg-gray' style={{ height: '50vh', paddingTop: '5%' }}>
+            <div className='bg-gray' style={{ height: '50vh', paddingTop: '6%' }}>
 
                 <Container>
                     <Row className='text-center'>
                         <Col>
                             <img
-                                className="" style={{ width: '50px', height: '50px' }}
+                                className="" style={{ width: '60px', height: '60px' }}
                                 src={matches ? (
                                     SplitScreen
                                 ) : (
@@ -36,12 +36,12 @@ function ProductSpecCard() {
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
-                                UHD TrueHue™ display
+                                Split-screen mode
                             </Typography>
                         </Col>
                         <Col>
                             <img
-                                className="" style={{ width: '50px', height: '50px' }}
+                                className="" style={{ width: '60px', height: '60px' }}
                                 src={matches ? (
                                     nfc
                                 ) : (
@@ -49,12 +49,12 @@ function ProductSpecCard() {
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
-                                Always-On Enabled
+                                NFC
                             </Typography>
                         </Col>
                         <Col>
                             <img
-                                className="" style={{ width: '50px', height: '50px' }}
+                                className="" style={{ width: '60px', height: '60px' }}
                                 src={matches ? (
                                     charging
                                 ) : (
@@ -62,7 +62,7 @@ function ProductSpecCard() {
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
-                                Wireless Charging with SnapCharge™
+                                Wireless Charging
                             </Typography>
                         </Col>
 
@@ -72,7 +72,7 @@ function ProductSpecCard() {
                     <Row className='text-center'>
                         <Col>
                             <img
-                                className="" style={{ width: '50px', height: '50px' }}
+                                className="" style={{ width: '60px', height: '60px' }}
                                 src={matches ? (
                                     Multitasking
                                 ) : (
@@ -80,12 +80,12 @@ function ProductSpecCard() {
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
-                                Bluetooth voice calling
+                                Multi-tasking
                             </Typography>
                         </Col>
                         <Col>
                             <img
-                                className="" style={{ width: '50px', height: '50px' }}
+                                className="" style={{ width: '60px', height: '60px' }}
                                 src={matches ? (
                                     voiceAssistants
                                 ) : (
@@ -93,12 +93,12 @@ function ProductSpecCard() {
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
-                                Voice Assistants
+                                Virtual Assistant
                             </Typography>
                         </Col>
                         <Col>
                             <img
-                                className="" style={{ width: '50px', height: '50px' }}
+                                className="" style={{ width: '60px', height: '60px' }}
                                 src={matches ? (
                                     Message
                                 ) : (
@@ -106,11 +106,9 @@ function ProductSpecCard() {
                                 )}
                                 alt="First slide" />
                             <Typography variant='p' component='p' mt={1} mb={4}>
-                                Up to 15 Days Battery
+                                Messages
                             </Typography>
                         </Col>
-
-
                     </Row>
                 </Container>
             </div>
